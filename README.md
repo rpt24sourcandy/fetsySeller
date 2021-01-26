@@ -1,12 +1,14 @@
 # Welcome to Fetsy Seller
 
-Get started
+[![Watch the video](https://img.youtube.com/vi/IY8kROYF_1U/maxresdefault.jpg)](https://www.youtube.com/embed/IY8kROYF_1U)
+
+### Get started
 - Run `git clone https://github.com/rpt24sourcandy/fetsySeller.git`
 - Run `npm install`
 - Run `npm run db:setup` and `npm run db:seed` (TODO: combine commands)
 - Run `npm start`
 
-Endpoints
+### Endpoints
 - `/items/:item_id/seller` response will be seller information for given item id
     {
       "item_id": 1
@@ -18,3 +20,4 @@ Endpoints
       "seller_state": "Oklahoma",
       "on_etsy_since": 2019,
     }
+
